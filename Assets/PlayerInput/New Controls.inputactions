@@ -13,6 +13,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Speed",
+                    "type": "Button",
+                    "id": "1b5e468d-5ced-46d9-b95d-c66b5052e3e7",
+                    "expectedControlType": "Button",
+                    "processors": "Invert",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Release",
+                    "type": "Button",
+                    "id": "4e298e47-88d1-47ba-9037-304a989f86ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -72,48 +90,26 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Two Modifiers",
-                    "id": "64ab61f7-ca6e-4003-9fd1-af8860019718",
-                    "path": "TwoModifiers",
-                    "interactions": "",
+                    "name": "",
+                    "id": "f77d3895-a506-4905-ade8-ef65792a6aac",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "Hold(duration=1.401298E-45,pressPoint=1.401298E-45)",
                     "processors": "",
                     "groups": "",
-                    "action": "InputDuJoueur",
-                    "isComposite": true,
+                    "action": "Speed",
+                    "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "modifier1",
-                    "id": "3c28caa6-e5ba-4fa3-aa71-5b8ae3a721d2",
-                    "path": "",
+                    "name": "",
+                    "id": "a622541c-013d-4379-86b6-57d50479903b",
+                    "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "InputDuJoueur",
+                    "action": "Release",
                     "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "modifier2",
-                    "id": "daf7c6b2-e610-4f27-a18f-52f204c8f19f",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "InputDuJoueur",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "4d697404-664e-4454-8eed-cd9a0e87a5a2",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "InputDuJoueur",
-                    "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 }
             ]
         }
